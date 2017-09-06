@@ -1,0 +1,47 @@
+1504157095302	geckodriver	INFO	Listening on 127.0.0.1:11262
+1504157097312	mozprofile::profile	INFO	Using profile path C:1504157098772	mozprofile::profile	INFO	Using profile path C:\Users\heygears\AppData\Local\Temp\rust_mozprofile.nhhyYncCyyE1
+1504157098778	geckodriver::marionette	INFO	Starting browser D:\FireFox54\firefox.exe
+1504157098785	geckodriver::marionette	INFO	Connecting to Marionette on localhost:11282
+1504157099539	Marionette	WARN	Deprecated preference marionette.de1504157101547	Marionette	INFO	Listening on port 11271
+150411504157103106	Marionette	INFO	Listening on port 11282
+1504157104028	Marionette	WAJavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1504157619812	Marionette	INFO	Ceased listening
+js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+observe@resource://gre/modules/AsyncShutdown.jsm:550:9
+addBlocker/moduleBlocker/<@resource://gre/components/nsAsyncShutdown.js:157:15
+Promise@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:390:5
+moduleBlocker@resource://gre/components/nsAsyncShutdown.js:153:29
+trigger@resource://gre/modules/AsyncShutdown.jsm:719:23
+_wait@resource://gre/modules/AsyncShutdown.jsm:866:7
+wait@resource://gre/modules/AsyncShutdown.jsm:850:28
+observe@resource://gre/modules/AsyncShutdown.jsm:533:17
+
+1504157106355	Marionette	INFO	Ceased listening
+1504157658488	geckodriver	INFO	Listening on 127.0.0.1:11373
+1504157660499	mozprofile::profile	INFO	Using profile path C:\Users\heygears\AppData\Local\Temp\rust_mozprofile.jHkndwi8F0Cn
+1504157660505	geckodriver::marionette	INFO	Starting browser D:\FireFox54\firefox.exe
+1504157660543	geckodriver::marionette	INFO	Connecting to Marionette on localhost:11379
+1504157661091	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1504157663336	Marionette	INFO	Listening on port 11379
+1504157663719	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1504157862296	Marionette	INFO	Ceased listening
+1504160359048	geckodriver	INFO	Listening on 127.0.0.1:12576
+1504160361048	mozprofile::profile	INFO	Using profile path C:\Users\heygears\AppData\Local\Temp\rust_mozprofile.4myECvbgHOgJ
+1504160361050	geckodriver::marionette	INFO	Starting browser D:\FireFox54\firefox.exe
+1504160361067	geckodriver::marionette	INFO	Connecting to Marionette on localhost:12582
+1504160361652	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1504160364393	Marionette	INFO	Listening on port 12582
+1504160364767	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504160371334	Marionette	INFO	New connections will no longer be accepted
+1504160573887	geckodriver	INFO	Listening on 127.0.0.1:12673
+1504160575886	mozprofile::profile	INFO	Using profile path C:\Users\heygears\AppData\Local\Temp\rust_mozprofile.TifQdYPLt3pv
+1504160575888	geckodriver::marionette	INFO	Starting browser D:\FireFox54\firefox.exe
+1504160575902	geckodriver::marionette	INFO	Connecting to Marionette on localhost:12679
+1504160576426	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1504160578827	Marionette	INFO	Listening on port 12679
+1504160579085	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504160587086	Marionette	INFO	New connections will no longer be accepted

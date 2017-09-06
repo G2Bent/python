@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    {% load bootstrap3 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+    {% bootstrap_messages %}
+    <meta charset="UTF-8">
+    <title>上传文件</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <th class="navbar-header">
+            <a class="navbar-brand" href="/web/index">上传文件</a>
+            <a class="navbar-brand" href="/web/action">执行测试</a>
+            <a class="navbar-brand" href="/web/report">测试报告</a>
+        </th>
+    </div>
+</nav>
+<br><br>
+<div class="well">
+    <h3>上传文件</h3>
+        <form method="post" enctype="multipart/form-data" action="/web/upload_s/">
+            <br/>
+            <input name="fileing" type="file" name="file"/>
+            <br/>
+            <p>文件描述：</p>
+            <input name="filename" type="text" class="l_input account input_with_watermark">
+            <input id="btn" type="submit" class="btn btn-lg btn-primary" value="上传"/>
+            <br/>
+            <p class="text-warning">
+                {{ upload_success }}
+                {{ error }}
+            </p>
+        </form>
+<h2>上传文件历史：</h2>
+    <table class="table">
+        <th>文件名</th><th>名称</th><th>文件</th><th>上传时间</th>
+        {% for file in file_list %}
+            <tr class="success">
+                <td>{{ file.filename }}</td>
+                <td>{{ file.fileway }}</td>
+                <td>{{ file.name }}</td>
+                <td>{{ file.uploadtime }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+<footer>
+    <p>&copy; Company 2017 & champion</p>
+</footer>
+</body>
+</html>

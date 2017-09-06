@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load bootstrap3 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+    {% bootstrap_messages %}
+    <meta charset="UTF-8">
+    <title>执行测试</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <th class="navbar-header">
+            <a class="navbar-brand" href="/web/index">上传文件</a>
+            <a class="navbar-brand" href="#">执行测试</a>
+            <a class="navbar-brand" href="/web/report">测试报告</a>
+        </th>
+    </div>
+</nav>
+{#<form method="post" action="/web/action_s/" enctype="multipart/form-data">#}
+<h2>执行测试：</h2>
+<form action="/web/test/" method="post">
+    <table class="table">
+        <th>文件名</th><th>文件</th><th>上传时间</th><th>操作</th>
+{#        {% for file in file_list %}#}
+{#            <tr class="success">#}
+{#                <td>{{ file.filename }}</td>#}
+{#                <td>{{ file.fileway }}</td>#}
+{#                <td>{{ file.uploadtime }}</td>#}
+{#                <td><input type="submit" value="测试"></td>#}
+{#            </tr>#}
+{#        {% endfor %}#}
+        <tr class="success">
+                <td>{{ file_list.filename }}</td>
+                <td>{{ file_list.fileway }}</td>
+                <td>{{ file_list.uploadtime }}</td>
+
+                <td><input name="test" type="submit" value="测试"></td>
+        </tr>
+    </table>
+</form>
+<footer>
+    <p>&copy; Company 2017 & champion</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+1503033718337	geckodriver	INFO	Listening on 127.0.0.1:10089
+1503033720352	mozprofile::profile	INFO	Using profile path C:\Users\heygears\AppData\Local\Temp\rust_mozprofile.5xwSMBmwLNsS
+1503033720363	geckodriver::marionette	INFO	Starting browser D:\FireFox54\firefox.exe
+1503033720398	geckodriver::marionette	INFO	Connecting to Marionette on localhost:10095
+1503033721326	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1503033724188	Marionette	INFO	Listening on port 10095
+1503033724523	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1503033799864	Marionette	INFO	Ceased listening
+[NPAPI 12568] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

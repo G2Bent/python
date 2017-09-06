@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <title>测试配置文件</title>
+    <item name="test_url">
+        <!--url是脚本测试的网站-->
+        <test_url url="http://test.www.heygears.com/">
+            测试网站
+        </test_url>
+    </item>
+    <item name="startswith_of_test_filename">
+        <!--filename是测试这一类文件的开头-->
+        <file filename = '官网'>
+            需要测试一类文件
+        </file>
+    </item>
+</catalog>

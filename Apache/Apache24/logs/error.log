@@ -1,0 +1,140 @@
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Fri Aug 11 15:26:32.920764 2017] [mpm_winnt:notice] [pid 14192:tid 644] AH00455: Apache/2.4.27 (Win64) configured -- resuming normal operations
+[Fri Aug 11 15:26:32.922264 2017] [mpm_winnt:notice] [pid 14192:tid 644] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 13:44:15
+[Fri Aug 11 15:26:32.922264 2017] [core:notice] [pid 14192:tid 644] AH00094: Command line: 'E:\\learning\\Apache\\Apache24\\bin\\httpd.exe -d E:/learning/Apache/Apache24'
+[Fri Aug 11 15:26:32.945280 2017] [mpm_winnt:notice] [pid 14192:tid 644] AH00418: Parent: Created child process 1012
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Fri Aug 11 15:26:35.464437 2017] [mpm_winnt:notice] [pid 1012:tid 500] AH00354: Child: Starting 64 worker threads.
+[Fri Aug 11 15:34:48.884542 2017] [mpm_winnt:notice] [pid 14192:tid 644] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Aug 11 15:34:50.885829 2017] [mpm_winnt:notice] [pid 1012:tid 500] AH00364: Child: All worker threads have exited.
+[Fri Aug 11 15:34:50.915937 2017] [mpm_winnt:notice] [pid 14192:tid 644] AH00430: Parent: Child process 1012 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Fri Aug 11 15:55:20.347348 2017] [mpm_winnt:notice] [pid 16732:tid 156] AH00455: Apache/2.4.27 (Win64) mod_wsgi/4.5.17 Python/3.6 configured -- resuming normal operations
+[Fri Aug 11 15:55:20.349330 2017] [mpm_winnt:notice] [pid 16732:tid 156] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 13:44:15
+[Fri Aug 11 15:55:20.349330 2017] [core:notice] [pid 16732:tid 156] AH00094: Command line: 'E:\\learning\\Apache\\Apache24\\bin\\httpd.exe -d E:/learning/Apache/Apache24'
+[Fri Aug 11 15:55:20.375867 2017] [mpm_winnt:notice] [pid 16732:tid 156] AH00418: Parent: Created child process 17096
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Fri Aug 11 15:55:22.764999 2017] [mpm_winnt:notice] [pid 17096:tid 808] AH00354: Child: Starting 64 worker threads.
+[Fri Aug 11 15:55:37.837413 2017] [mpm_winnt:notice] [pid 16732:tid 156] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Aug 11 15:55:46.670883 2017] [mpm_winnt:notice] [pid 17096:tid 808] AH00364: Child: All worker threads have exited.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Fri Aug 11 16:01:39.603474 2017] [core:warn] [pid 16212:tid 672] AH00098: pid file E:/learning/Apache/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Aug 11 16:01:39.605975 2017] [mpm_winnt:notice] [pid 16212:tid 672] AH00455: Apache/2.4.27 (Win64) mod_wsgi/4.5.17 Python/3.6 configured -- resuming normal operations
+[Fri Aug 11 16:01:39.605975 2017] [mpm_winnt:notice] [pid 16212:tid 672] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 13:44:15
+[Fri Aug 11 16:01:39.605975 2017] [core:notice] [pid 16212:tid 672] AH00094: Command line: 'E:\\learning\\Apache\\Apache24\\bin\\httpd.exe -d E:/learning/Apache/Apache24'
+[Fri Aug 11 16:01:39.616007 2017] [mpm_winnt:notice] [pid 16212:tid 672] AH00418: Parent: Created child process 17928
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Fri Aug 11 16:01:41.911812 2017] [mpm_winnt:notice] [pid 17928:tid 740] AH00354: Child: Starting 64 worker threads.
+[Fri Aug 11 16:01:44.848849 2017] [wsgi:error] [pid 17928:tid 1244] [client 127.0.0.1:20044] Not Found: /\r
+[Fri Aug 11 16:01:51.265388 2017] [wsgi:error] [pid 17928:tid 1240] [client 127.0.0.1:20045] d:\\python3.6.2\\lib\\site-packages\\django\\template\\defaulttags.py:66: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.\r
+[Fri Aug 11 16:01:51.265388 2017] [wsgi:error] [pid 17928:tid 1240] [client 127.0.0.1:20045]   "A {% csrf_token %} was used in a template, but the context "\r
+[Fri Aug 11 16:38:17.424892 2017] [wsgi:error] [pid 17928:tid 1244] [client 127.0.0.1:20867] Not Found: /static/admin/css/base.css\r, referer: http://127.0.0.1:8000/admin/
+[Fri Aug 11 16:38:17.427896 2017] [wsgi:error] [pid 17928:tid 1240] [client 127.0.0.1:20868] Not Found: /static/admin/css/dashboard.css\r, referer: http://127.0.0.1:8000/admin/
+[Fri Aug 11 16:38:25.578934 2017] [wsgi:error] [pid 17928:tid 1240] [client 127.0.0.1:20873] d:\\python3.6.2\\lib\\site-packages\\django\\template\\defaulttags.py:66: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.\r
+[Fri Aug 11 16:38:25.578934 2017] [wsgi:error] [pid 17928:tid 1240] [client 127.0.0.1:20873]   "A {% csrf_token %} was used in a template, but the context "\r
+[Fri Aug 11 16:53:15.434358 2017] [wsgi:error] [pid 17928:tid 1244] [client 127.0.0.1:21086] Not Found: /static/admin/css/base.css\r, referer: http://127.0.0.1:8000/admin/
+[Fri Aug 11 16:53:15.436861 2017] [wsgi:error] [pid 17928:tid 1240] [client 127.0.0.1:21087] Not Found: /static/admin/css/dashboard.css\r, referer: http://127.0.0.1:8000/admin/
+[Fri Aug 11 16:54:02.621039 2017] [wsgi:error] [pid 17928:tid 1240] [client 127.0.0.1:21102] Not Found: /blog/\r
+[Fri Aug 11 19:33:26.946782 2017] [mpm_winnt:notice] [pid 16212:tid 672] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Aug 11 19:33:28.948585 2017] [mpm_winnt:notice] [pid 17928:tid 740] AH00364: Child: All worker threads have exited.
+Exception ignored in: <object repr() failed>
+Traceback (most recent call last):
+  File "d:\python3.6.2\lib\site-packages\PIL\Image.py", line 572, in __del__
+NameError: name 'hasattr' is not defined
+[Fri Aug 11 19:33:29.077172 2017] [mpm_winnt:notice] [pid 16212:tid 672] AH00430: Parent: Child process 17928 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Sat Aug 12 08:05:18.902610 2017] [mpm_winnt:notice] [pid 11240:tid 656] AH00455: Apache/2.4.27 (Win64) mod_wsgi/4.5.17 Python/3.6 configured -- resuming normal operations
+[Sat Aug 12 08:05:18.902610 2017] [mpm_winnt:notice] [pid 11240:tid 656] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 13:44:15
+[Sat Aug 12 08:05:18.902610 2017] [core:notice] [pid 11240:tid 656] AH00094: Command line: 'E:\\learning\\Apache\\Apache24\\bin\\httpd.exe -d E:/learning/Apache/Apache24'
+[Sat Aug 12 08:05:18.922600 2017] [mpm_winnt:notice] [pid 11240:tid 656] AH00418: Parent: Created child process 10628
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Sat Aug 12 08:05:21.182447 2017] [mpm_winnt:notice] [pid 10628:tid 780] AH00354: Child: Starting 64 worker threads.
+[Sat Aug 12 08:10:57.014524 2017] [mpm_winnt:notice] [pid 11240:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Sat Aug 12 08:11:13.278081 2017] [core:warn] [pid 3180:tid 684] AH00098: pid file E:/learning/Apache/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Aug 12 08:11:13.288051 2017] [mpm_winnt:notice] [pid 3180:tid 684] AH00455: Apache/2.4.27 (Win64) mod_wsgi/4.5.17 Python/3.6 configured -- resuming normal operations
+[Sat Aug 12 08:11:13.288051 2017] [mpm_winnt:notice] [pid 3180:tid 684] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 13:44:15
+[Sat Aug 12 08:11:13.288051 2017] [core:notice] [pid 3180:tid 684] AH00094: Command line: 'E:\\learning\\Apache\\Apache24\\bin\\httpd.exe -d E:/learning/Apache/Apache24'
+[Sat Aug 12 08:11:13.308057 2017] [mpm_winnt:notice] [pid 3180:tid 684] AH00418: Parent: Created child process 6572
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 10628:tid 780] AH00364: Child: All worker threads have exited.
+Exception ignored in: <object repr() failed>
+Traceback (most recent call last):
+  File "d:\python3.6.2\lib\site-packages\PIL\Image.py", line 572, in __del__
+NameError: name 'hasattr' is not defined
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Sat Aug 12 08:11:15.659111 2017] [mpm_winnt:notice] [pid 6572:tid 772] AH00354: Child: Starting 64 worker threads.
+[Sat Aug 12 08:12:10.718094 2017] [mpm_winnt:notice] [pid 3180:tid 684] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Aug 12 08:12:12.729212 2017] [mpm_winnt:notice] [pid 6572:tid 772] AH00364: Child: All worker threads have exited.
+Exception ignored in: <object repr() failed>
+Traceback (most recent call last):
+  File "d:\python3.6.2\lib\site-packages\PIL\Image.py", line 572, in __del__
+NameError: name 'hasattr' is not defined
+[Sat Aug 12 08:12:12.799193 2017] [mpm_winnt:notice] [pid 3180:tid 684] AH00430: Parent: Child process 6572 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Sat Aug 12 08:12:18.126096 2017] [mpm_winnt:notice] [pid 9552:tid 680] AH00455: Apache/2.4.27 (Win64) mod_wsgi/4.5.17 Python/3.6 configured -- resuming normal operations
+[Sat Aug 12 08:12:18.126096 2017] [mpm_winnt:notice] [pid 9552:tid 680] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 13:44:15
+[Sat Aug 12 08:12:18.126096 2017] [core:notice] [pid 9552:tid 680] AH00094: Command line: 'E:\\learning\\Apache\\Apache24\\bin\\httpd.exe -d E:/learning/Apache/Apache24'
+[Sat Aug 12 08:12:18.136095 2017] [mpm_winnt:notice] [pid 9552:tid 680] AH00418: Parent: Created child process 10444
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Sat Aug 12 08:12:20.463307 2017] [mpm_winnt:notice] [pid 10444:tid 712] AH00354: Child: Starting 64 worker threads.
+[Sat Aug 12 08:13:27.486985 2017] [mpm_winnt:notice] [pid 9552:tid 680] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Sat Aug 12 08:13:36.037259 2017] [core:warn] [pid 10160:tid 652] AH00098: pid file E:/learning/Apache/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Aug 12 08:13:36.037259 2017] [mpm_winnt:notice] [pid 10160:tid 652] AH00455: Apache/2.4.27 (Win64) mod_wsgi/4.5.17 Python/3.6 configured -- resuming normal operations
+[Sat Aug 12 08:13:36.037259 2017] [mpm_winnt:notice] [pid 10160:tid 652] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 13:44:15
+[Sat Aug 12 08:13:36.037259 2017] [core:notice] [pid 10160:tid 652] AH00094: Command line: 'E:\\learning\\Apache\\Apache24\\bin\\httpd.exe -d E:/learning/Apache/Apache24'
+[Sat Aug 12 08:13:36.067231 2017] [mpm_winnt:notice] [pid 10160:tid 652] AH00418: Parent: Created child process 12156
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+\lib\site-packages\PIL\Image.py", line 572, in __del__
+NameError: name 'hasattr' is not defined
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Sat Aug 12 08:13:38.374268 2017] [mpm_winnt:notice] [pid 12156:tid 792] AH00354: Child: Starting 64 worker threads.
+[Sat Aug 12 08:13:57.807419 2017] [mpm_winnt:notice] [pid 10160:tid 652] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Sat Aug 12 08:14:07.738032 2017] [core:warn] [pid 10152:tid 144] AH00098: pid file E:/learning/Apache/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Aug 12 08:14:07.748032 2017] [mpm_winnt:notice] [pid 10152:tid 144] AH00455: Apache/2.4.27 (Win64) mod_wsgi/4.5.17 Python/3.6 configured -- resuming normal operations
+[Sat Aug 12 08:14:07.748032 2017] [mpm_winnt:notice] [pid 10152:tid 144] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 13:44:15
+[Sat Aug 12 08:14:07.748032 2017] [core:notice] [pid 10152:tid 144] AH00094: Command line: 'E:\\learning\\Apache\\Apache24\\bin\\httpd.exe -d E:/learning/Apache/Apache24'
+[Sat Aug 12 08:14:07.768005 2017] [mpm_winnt:notice] [pid 10152:tid 144] AH00418: Parent: Created child process 14700
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+\lib\site-packages\PIL\Image.py", line 572, in __del__
+NameError: name 'hasattr' is not defined
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Sat Aug 12 08:14:10.197910 2017] [mpm_winnt:notice] [pid 14700:tid 772] AH00354: Child: Starting 64 worker threads.
+[Sat Aug 12 09:27:59.948881 2017] [mpm_winnt:notice] [pid 10152:tid 144] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Aug 12 09:28:01.950166 2017] [mpm_winnt:notice] [pid 14700:tid 772] AH00364: Child: All worker threads have exited.
+Exception ignored in: <object repr() failed>
+Traceback (most recent call last):
+  File "d:\python3.6.2\lib\site-packages\PIL\Image.py", line 572, in __del__
+NameError: name 'hasattr' is not defined
+[Sat Aug 12 09:28:02.054219 2017] [mpm_winnt:notice] [pid 10152:tid 144] AH00430: Parent: Child process 14700 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Sat Aug 12 10:22:35.403008 2017] [mpm_winnt:notice] [pid 14736:tid 672] AH00455: Apache/2.4.27 (Win64) mod_wsgi/4.5.17 Python/3.6 configured -- resuming normal operations
+[Sat Aug 12 10:22:35.404505 2017] [mpm_winnt:notice] [pid 14736:tid 672] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 13:44:15
+[Sat Aug 12 10:22:35.404505 2017] [core:notice] [pid 14736:tid 672] AH00094: Command line: 'E:\\learning\\Apache\\Apache24\\bin\\httpd.exe -d E:/learning/Apache/Apache24'
+[Sat Aug 12 10:22:35.415504 2017] [mpm_winnt:notice] [pid 14736:tid 672] AH00418: Parent: Created child process 11212
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using fe80::21b4:19a5:4ef4:cea4. Set the 'ServerName' directive globally to suppress this message
+[Sat Aug 12 10:22:37.764518 2017] [mpm_winnt:notice] [pid 11212:tid 4] AH00354: Child: Starting 64 worker threads.
+[Sat Aug 12 15:49:35.120269 2017] [mpm_winnt:notice] [pid 14736:tid 672] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Aug 12 15:49:37.128382 2017] [mpm_winnt:notice] [pid 11212:tid 4] AH00364: Child: All worker threads have exited.
+Exception ignored in: <object repr() failed>
+Traceback (most recent call last):
+  File "d:\python3.6.2\lib\site-packages\PIL\Image.py", line 572, in __del__
+NameError: name 'hasattr' is not defined
+[Sat Aug 12 15:49:37.352116 2017] [mpm_winnt:notice] [pid 14736:tid 672] AH00430: Parent: Child process 11212 exited successfully.

@@ -1,0 +1,29 @@
+1504151948524	geckodriver	INFO	Listening on 127.0.0.1:10081
+1504151950515	mozprofile::profile	INFO	Using profile path C:\Users\heygears\AppData\Local\Temp\rust_mozprofile.7PJ1n36jM0Bh
+1504151950517	geckodriver::marionette	INFO	Starting browser D:\FireFox54\firefox.exe
+1504151950536	geckodriver::marionette	INFO	Connecting to Marionette on localhost:10087
+1504151952038	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1504151955127	Marionette	INFO	Listening on port 10087
+1504151955814	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1504151977748	Marionette	INFO	Ceased listening
+1504159998163	geckodriver	INFO	Listening on 127.0.0.1:12261
+1504160000165	mozprofile::profile	INFO	Using profile path C:\Users\heygears\AppData\Local\Temp\rust_mozprofile.UUbtcGstvZaU
+1504160000184	geckodriver::marionette	INFO	Starting browser D:\FireFox54\firefox.exe
+1504160000199	geckodriver::marionette	INFO	Connecting to Marionette on localhost:12267
+1504160000807	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1504160003372	Marionette	INFO	Listening on port 12267
+1504160003822	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1504160018292	Marionette	INFO	Ceased listening
+[NPAPI 8336] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1504160020628	geckodriver	INFO	Listening on 127.0.0.1:12304
+1504160022629	mozprofile::profile	INFO	Using profile path C:\Users\heygears\AppData\Local\Temp\rust_mozprofile.om2w0pJw8Dza
+1504160022631	geckodriver::marionette	INFO	Starting browser D:\FireFox54\firefox.exe
+1504160022645	geckodriver::marionette	INFO	Connecting to Marionette on localhost:12310
+1504160023168	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1504160025694	Marionette	INFO	Listening on port 12310
+1504160026004	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504160027676	Marionette	INFO	New connections will no longer be accepted

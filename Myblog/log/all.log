@@ -1,0 +1,502 @@
+2017-09-01 15:07:24,876 [Dummy-1:9184] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:07:24,877 [Dummy-1:9184] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-09-01 15:07:24,909 [Dummy-1:9184] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SHOW FULL TABLES; args=None
+2017-09-01 15:07:24,912 [Dummy-1:9184] [django.db.backends:91] [utils:execute] [DEBUG]- (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2017-09-01 15:07:29,173 [Thread-2:13404] [blog.views:10] [views:index] [ERROR]- [Errno 2] No such file or directory: 'xxx.txt'
+2017-09-01 15:07:29,183 [Thread-2:13404] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_NAME' in template 'index.html'.
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+  File "D:\python3.6.2\lib\site-packages\django\template\context.py", line 87, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 888, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_NAME] in "[{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B5C9947950>>, 'request': <WSGIRequest: GET '/blog/index/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x000001B5C9905BF8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x000001B5C9954EB8>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000001B5C9921EB8>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'request': <WSGIRequest: GET '/blog/index/'>}]"
+2017-09-01 15:07:29,205 [Thread-2:13404] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_NAME' in template 'index.html'.
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+  File "D:\python3.6.2\lib\site-packages\django\template\context.py", line 87, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 888, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_NAME] in "[{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B5C9947950>>, 'request': <WSGIRequest: GET '/blog/index/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x000001B5C9905BF8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x000001B5C9954EB8>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000001B5C9921EB8>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'request': <WSGIRequest: GET '/blog/index/'>}]"
+2017-09-01 15:07:29,206 [Thread-2:13404] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_DESC' in template 'index.html'.
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+  File "D:\python3.6.2\lib\site-packages\django\template\context.py", line 87, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 888, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_DESC] in "[{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B5C9947950>>, 'request': <WSGIRequest: GET '/blog/index/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x000001B5C9905BF8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x000001B5C9954EB8>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000001B5C9921EB8>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'request': <WSGIRequest: GET '/blog/index/'>}]"
+2017-09-01 15:07:29,214 [Thread-2:13404] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_NAME' in template 'index.html'.
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+  File "D:\python3.6.2\lib\site-packages\django\template\context.py", line 87, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 888, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_NAME] in "[{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B5C9947950>>, 'request': <WSGIRequest: GET '/blog/index/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x000001B5C9905BF8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x000001B5C9954EB8>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000001B5C9921EB8>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'request': <WSGIRequest: GET '/blog/index/'>}]"
+2017-09-01 15:07:29,216 [Thread-2:13404] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_DESC' in template 'index.html'.
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+  File "D:\python3.6.2\lib\site-packages\django\template\context.py", line 87, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 888, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_DESC] in "[{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B5C9947950>>, 'request': <WSGIRequest: GET '/blog/index/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x000001B5C9905BF8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x000001B5C9954EB8>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000001B5C9921EB8>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'request': <WSGIRequest: GET '/blog/index/'>}]"
+2017-09-01 15:07:29,219 [Thread-2:13404] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'category_list' in template 'index.html'.
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+  File "D:\python3.6.2\lib\site-packages\django\template\context.py", line 87, in __getitem__
+    raise KeyError(key)
+KeyError: 'category_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 888, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'category_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'category_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [category_list] in "[{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B5C9947950>>, 'request': <WSGIRequest: GET '/blog/index/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x000001B5C9905BF8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x000001B5C9954EB8>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000001B5C9921EB8>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'request': <WSGIRequest: GET '/blog/index/'>}, {}]"
+2017-09-01 15:07:29,224 [Thread-2:13404] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'article_list' in template 'index.html'.
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+  File "D:\python3.6.2\lib\site-packages\django\template\context.py", line 87, in __getitem__
+    raise KeyError(key)
+KeyError: 'article_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 888, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'article_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'article_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [article_list] in '[{\'True\': True, \'False\': False, \'None\': None}, {\'csrf_token\': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B5C9947950>>, \'request\': <WSGIRequest: GET \'/blog/index/\'>, \'user\': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x000001B5C9905BF8>>, \'perms\': <django.contrib.auth.context_processors.PermWrapper object at 0x000001B5C9954EB8>, \'messages\': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000001B5C9921EB8>, \'DEFAULT_MESSAGE_LEVELS\': {\'DEBUG\': 10, \'INFO\': 20, \'SUCCESS\': 25, \'WARNING\': 30, \'ERROR\': 40}}, {}, {\'request\': <WSGIRequest: GET \'/blog/index/\'>}, {\'block\': <Block Node: left_content. Contents: [<TextNode: \'\\n    \'>, <django.template.loader_tags.IncludeNode object at 0x000001B5C994CC88>, <TextNode: \'\\n    <div class="topnews"\'>, <For Node: for article in article_list, tail_len: 17>, <TextNode: \'\\n    </div>\\n    \'>, <django.template.loader_tags.IncludeNode object at 0x000001B5C994C898>, <TextNode: \'\\n\'>]>}, {}]'
+2017-09-01 15:07:29,226 [Thread-2:13404] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'article_list' in template 'index.html'.
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+  File "D:\python3.6.2\lib\site-packages\django\template\context.py", line 87, in __getitem__
+    raise KeyError(key)
+KeyError: 'article_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 888, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'article_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'article_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [article_list] in '[{\'True\': True, \'False\': False, \'None\': None}, {\'csrf_token\': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B5C9947950>>, \'request\': <WSGIRequest: GET \'/blog/index/\'>, \'user\': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x000001B5C9905BF8>>, \'perms\': <django.contrib.auth.context_processors.PermWrapper object at 0x000001B5C9954EB8>, \'messages\': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000001B5C9921EB8>, \'DEFAULT_MESSAGE_LEVELS\': {\'DEBUG\': 10, \'INFO\': 20, \'SUCCESS\': 25, \'WARNING\': 30, \'ERROR\': 40}}, {}, {\'request\': <WSGIRequest: GET \'/blog/index/\'>}, {\'block\': <Block Node: left_content. Contents: [<TextNode: \'\\n    \'>, <django.template.loader_tags.IncludeNode object at 0x000001B5C994CC88>, <TextNode: \'\\n    <div class="topnews"\'>, <For Node: for article in article_list, tail_len: 17>, <TextNode: \'\\n    </div>\\n    \'>, <django.template.loader_tags.IncludeNode object at 0x000001B5C994C898>, <TextNode: \'\\n\'>]>}, {}]'
+2017-09-01 15:07:29,227 [Thread-2:13404] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'article_list' in template 'index.html'.
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+  File "D:\python3.6.2\lib\site-packages\django\template\context.py", line 87, in __getitem__
+    raise KeyError(key)
+KeyError: 'article_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 888, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'article_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'article_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [article_list] in '[{\'True\': True, \'False\': False, \'None\': None}, {\'csrf_token\': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B5C9947950>>, \'request\': <WSGIRequest: GET \'/blog/index/\'>, \'user\': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x000001B5C9905BF8>>, \'perms\': <django.contrib.auth.context_processors.PermWrapper object at 0x000001B5C9954EB8>, \'messages\': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000001B5C9921EB8>, \'DEFAULT_MESSAGE_LEVELS\': {\'DEBUG\': 10, \'INFO\': 20, \'SUCCESS\': 25, \'WARNING\': 30, \'ERROR\': 40}}, {}, {\'request\': <WSGIRequest: GET \'/blog/index/\'>}, {\'block\': <Block Node: left_content. Contents: [<TextNode: \'\\n    \'>, <django.template.loader_tags.IncludeNode object at 0x000001B5C994CC88>, <TextNode: \'\\n    <div class="topnews"\'>, <For Node: for article in article_list, tail_len: 17>, <TextNode: \'\\n    </div>\\n    \'>, <django.template.loader_tags.IncludeNode object at 0x000001B5C994C898>, <TextNode: \'\\n\'>]>}, {}]'
+2017-09-01 15:07:29,228 [Thread-2:13404] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'article_list' in template 'index.html'.
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+  File "D:\python3.6.2\lib\site-packages\django\template\context.py", line 87, in __getitem__
+    raise KeyError(key)
+KeyError: 'article_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 888, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'article_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'article_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [article_list] in '[{\'True\': True, \'False\': False, \'None\': None}, {\'csrf_token\': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B5C9947950>>, \'request\': <WSGIRequest: GET \'/blog/index/\'>, \'user\': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x000001B5C9905BF8>>, \'perms\': <django.contrib.auth.context_processors.PermWrapper object at 0x000001B5C9954EB8>, \'messages\': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000001B5C9921EB8>, \'DEFAULT_MESSAGE_LEVELS\': {\'DEBUG\': 10, \'INFO\': 20, \'SUCCESS\': 25, \'WARNING\': 30, \'ERROR\': 40}}, {}, {\'request\': <WSGIRequest: GET \'/blog/index/\'>}, {\'block\': <Block Node: left_content. Contents: [<TextNode: \'\\n    \'>, <django.template.loader_tags.IncludeNode object at 0x000001B5C994CC88>, <TextNode: \'\\n    <div class="topnews"\'>, <For Node: for article in article_list, tail_len: 17>, <TextNode: \'\\n    </div>\\n    \'>, <django.template.loader_tags.IncludeNode object at 0x000001B5C994C898>, <TextNode: \'\\n\'>]>}, {}]'
+2017-09-01 15:07:29,229 [Thread-2:13404] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'article_list' in template 'index.html'.
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+  File "D:\python3.6.2\lib\site-packages\django\template\context.py", line 87, in __getitem__
+    raise KeyError(key)
+KeyError: 'article_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 888, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'article_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'article_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [article_list] in '[{\'True\': True, \'False\': False, \'None\': None}, {\'csrf_token\': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B5C9947950>>, \'request\': <WSGIRequest: GET \'/blog/index/\'>, \'user\': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x000001B5C9905BF8>>, \'perms\': <django.contrib.auth.context_processors.PermWrapper object at 0x000001B5C9954EB8>, \'messages\': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000001B5C9921EB8>, \'DEFAULT_MESSAGE_LEVELS\': {\'DEBUG\': 10, \'INFO\': 20, \'SUCCESS\': 25, \'WARNING\': 30, \'ERROR\': 40}}, {}, {\'request\': <WSGIRequest: GET \'/blog/index/\'>}, {\'block\': <Block Node: left_content. Contents: [<TextNode: \'\\n    \'>, <django.template.loader_tags.IncludeNode object at 0x000001B5C994CC88>, <TextNode: \'\\n    <div class="topnews"\'>, <For Node: for article in article_list, tail_len: 17>, <TextNode: \'\\n    </div>\\n    \'>, <django.template.loader_tags.IncludeNode object at 0x000001B5C994C898>, <TextNode: \'\\n\'>]>}, {}]'
+2017-09-01 15:07:29,230 [Thread-2:13404] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'article_comment_list' in template 'index.html'.
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+  File "D:\python3.6.2\lib\site-packages\django\template\context.py", line 87, in __getitem__
+    raise KeyError(key)
+KeyError: 'article_comment_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 888, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'article_comment_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'article_comment_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [article_comment_list] in "[{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B5C9947950>>, 'request': <WSGIRequest: GET '/blog/index/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x000001B5C9905BF8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x000001B5C9954EB8>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000001B5C9921EB8>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'request': <WSGIRequest: GET '/blog/index/'>}, {}]"
+2017-09-01 15:07:29,231 [Thread-2:13404] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'archive_list' in template 'index.html'.
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+  File "D:\python3.6.2\lib\site-packages\django\template\context.py", line 87, in __getitem__
+    raise KeyError(key)
+KeyError: 'archive_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 888, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'archive_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'archive_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [archive_list] in "[{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B5C9947950>>, 'request': <WSGIRequest: GET '/blog/index/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x000001B5C9905BF8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x000001B5C9954EB8>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000001B5C9921EB8>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'request': <WSGIRequest: GET '/blog/index/'>}, {}]"
+2017-09-01 15:07:29,233 [Thread-2:13404] [django.server:124] [basehttp:log_message] [INFO]- "GET /blog/index/ HTTP/1.1" 200 6733
+2017-09-01 15:07:29,290 [Thread-3:1600] [django.server:124] [basehttp:log_message] [ERROR]- "GET /static/css/base.css HTTP/1.1" 500 59
+2017-09-01 15:07:29,290 [Thread-4:3952] [django.server:124] [basehttp:log_message] [ERROR]- "GET /static/css/index.css HTTP/1.1" 500 59
+2017-09-01 15:07:29,367 [Thread-6:1016] [django.server:124] [basehttp:log_message] [ERROR]- "GET /static/js/sliders.js HTTP/1.1" 500 59
+2017-09-01 15:07:29,367 [Thread-5:9608] [django.server:124] [basehttp:log_message] [ERROR]- "GET /static/js/jquery.min.js HTTP/1.1" 500 59
+2017-09-01 15:07:29,371 [Thread-7:7552] [django.server:124] [basehttp:log_message] [ERROR]- "GET /static/js/nav.js HTTP/1.1" 500 59
+2017-09-01 15:07:29,377 [Thread-8:10364] [django.server:124] [basehttp:log_message] [ERROR]- "GET /static/js/sliders.js HTTP/1.1" 500 59
+2017-09-01 15:07:29,389 [Thread-9:7060] [django.server:124] [basehttp:log_message] [ERROR]- "GET /static/images/a1.jpg HTTP/1.1" 500 59
+2017-09-01 15:07:29,399 [Thread-10:8796] [django.server:124] [basehttp:log_message] [ERROR]- "GET /static/images/a2.jpg HTTP/1.1" 500 59
+2017-09-01 15:07:29,403 [Thread-11:14332] [django.server:124] [basehttp:log_message] [ERROR]- "GET /static/images/a3.jpg HTTP/1.1" 500 59
+2017-09-01 15:07:29,405 [Thread-13:12028] [django.server:124] [basehttp:log_message] [ERROR]- "GET /static/images/a4.jpg HTTP/1.1" 500 59
+2017-09-01 15:07:29,405 [Thread-12:2912] [django.server:124] [basehttp:log_message] [ERROR]- "GET /static/js/nav.js HTTP/1.1" 500 59
+2017-09-01 15:07:29,430 [Thread-15:4816] [django.server:124] [basehttp:log_message] [ERROR]- "GET /static/images/a2.jpg HTTP/1.1" 500 59
+2017-09-01 15:07:29,434 [Thread-14:8704] [django.server:124] [basehttp:log_message] [ERROR]- "GET /static/images/a1.jpg HTTP/1.1" 500 59
+2017-09-01 15:07:29,435 [Thread-16:1656] [django.server:124] [basehttp:log_message] [ERROR]- "GET /static/images/a3.jpg HTTP/1.1" 500 59
+2017-09-01 15:07:29,435 [Thread-17:13188] [django.server:124] [basehttp:log_message] [ERROR]- "GET /static/images/a4.jpg HTTP/1.1" 500 59
+2017-09-01 15:07:29,464 [Thread-18:10884] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python3.6.2\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "D:\python3.6.2\lib\site-packages\django\urls\resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'blog.urls' from 'E:\\learning\\Myblog\\blog\\urls.py'> (None:None) ^blog/>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-01 15:07:29,468 [Thread-18:10884] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python3.6.2\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "D:\python3.6.2\lib\site-packages\django\urls\resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'blog.urls' from 'E:\\learning\\Myblog\\blog\\urls.py'> (None:None) ^blog/>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3.6.2\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in "<RegexURLResolver <module 'blog.urls' from 'E:\\\\learning\\\\Myblog\\\\blog\\\\urls.py'> (None:None) ^blog/>"
+2017-09-01 15:07:29,471 [Thread-18:10884] [django.server:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2068
+2017-09-01 15:10:51,399 [Dummy-1:2972] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:10:51,400 [Dummy-1:2972] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-09-01 15:10:51,435 [Dummy-1:2972] [django.db.backends:91] [utils:execute] [DEBUG]- (0.002) SHOW FULL TABLES; args=None
+2017-09-01 15:10:51,437 [Dummy-1:2972] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2017-09-01 15:11:50,210 [Dummy-1:14124] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:11:50,210 [Dummy-1:14124] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-09-01 15:27:05,480 [Dummy-1:15128] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:27:05,481 [Dummy-1:15128] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-09-01 15:28:28,943 [Dummy-1:14660] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:28:28,943 [Dummy-1:14660] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-09-01 15:32:36,150 [Dummy-1:15440] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:32:36,151 [Dummy-1:15440] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-09-01 15:35:41,948 [Dummy-1:16216] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:35:41,949 [Dummy-1:16216] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-09-01 15:35:46,524 [Dummy-1:16312] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:35:46,524 [Dummy-1:16312] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-09-01 15:36:06,122 [Dummy-1:7456] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:36:06,123 [Dummy-1:7456] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-09-01 15:36:48,779 [Dummy-1:15872] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:36:48,780 [Dummy-1:15872] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-09-01 15:37:02,574 [Dummy-1:15852] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:37:02,575 [Dummy-1:15852] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-09-01 15:38:45,493 [MainThread:14496] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:38:45,494 [MainThread:14496] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-09-01 15:42:36,687 [Dummy-1:15300] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:42:36,688 [Dummy-1:15300] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-09-01 15:44:16,220 [Dummy-1:12700] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:44:16,221 [Dummy-1:12700] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-09-01 15:48:58,009 [Dummy-1:15968] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:48:58,010 [Dummy-1:15968] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-09-01 15:49:43,866 [Dummy-1:15132] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:49:43,867 [Dummy-1:15132] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-09-01 15:50:13,642 [Dummy-1:15168] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:50:13,642 [Dummy-1:15168] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-09-01 15:51:06,261 [Dummy-1:16284] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:51:06,262 [Dummy-1:16284] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-09-01 15:52:41,394 [MainThread:13952] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:52:41,395 [MainThread:13952] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-09-01 15:55:38,337 [MainThread:9608] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 15:55:38,338 [MainThread:9608] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-09-01 16:01:33,372 [Dummy-1:3932] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-09-01 16:01:33,373 [Dummy-1:3932] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
