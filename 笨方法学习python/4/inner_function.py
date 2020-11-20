@@ -107,6 +107,60 @@ class InnerFunc():
 
     #delattr()删除对象属性
 
+    def func_float(self):
+        #字符串或整数转化为浮点数
+        a = float(1)
+        return a
+
+    #list() 参数为可迭代列表对象
+
+    #tuple()元组
+
+    #dict()创建数据字典
+
+    #set()创建集合
+
+    #frozenset() 不可变集合
+
+    #dir() 不带参数时返回当前范围的变量，方法和定义的类型列表，带参数时返回参数的属性，方法列表
+
+    #divmod()分别取商和余数，二个参数x和y，输出元组(x//y,x%y)
+    def func_divmod(self):
+        res = divmod(100,3)
+        return res
+
+    #enumerate()返回一个可以枚举的对象，该对象的next()方法将返回一个元组
+    def func_enumerate(self):
+        for i in enumerate(['a','b','c','d']):
+            print(i)
+        return True
+
+    #eval()将字符串str中的表达式提取出来并运行
+    def func_evals(self):
+        s = "1 + 2 * 3"
+        return type(s),eval(s)
+
+    #filter()　　过滤器，构造一个序列，等价于[ item for item in iterables if function(item)]，
+    # 在函数中设定过滤条件，逐一循环迭代器中的元素，将返回值为True时的元素留下，形成一个filter类型数据
+
+
+    #format()　　格式化输出字符串，format(value, format_spec)实质上是调用了value的__format__(format_spec)方法
+    def func_format(self):
+        a = "I am {0}, I like {1}".format("derek","python")
+        return a
+
+    #getattr()　　获取对象的属性
+    def func_getattr(self):
+        # getattr(object ,name[ ,defalut ])
+        # 获取对象object名为name的特性，如果object不包含名为name的特性，将会抛出AttributeError异常；如果不包含名为name的特性
+        # 且提供default参数，将返回default。
+        # 参数object：对象
+        # 参数name：对象的特性名
+        # 参数default：缺省返回值
+        a = getattr(list,'append')
+        mylist = [3,4,5]
+        mylist.append(6)
+        return mylist
 
 
     #classmethod() 用来置顶一个方法为类的方法，由类直接调用执行，只有一个cls参数，执行类的方法时，自动将调用该方法的类赋值给cls，没有此参数指定的方法为实例方法
@@ -125,5 +179,5 @@ class Province:
 
 if __name__ == '__main__':
     r = InnerFunc()
-    print(r.func_complex())
+    print(r.func_getattr())
     # print(Province.show())
